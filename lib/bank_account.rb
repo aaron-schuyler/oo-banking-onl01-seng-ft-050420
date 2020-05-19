@@ -13,6 +13,6 @@ class BankAccount
     "Your balance is $#{@balance}."
   end
   def valid?
-    @status == open && @blance > 0
+    @status == "open" && @blance > 0
   end
 end
